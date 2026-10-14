@@ -1,0 +1,11 @@
+package com.costdrive.api;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CostDriveApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(CostDriveApplication.class, args);
+    }
+}
